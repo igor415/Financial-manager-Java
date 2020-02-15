@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:elevation="10dp"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="10dp"
+            app:cardCornerRadius="18dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pozadina"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:contentDescription="@string/slika_za_izlaz_iz_dialoga_res"
+                    android:id="@+id/izlaz_dodaj_kupca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_close_white" />
+
+                <TextView
+                    android:id="@+id/naslov_popup_dodaj_kupca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/unesite_novog_kupca_res"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/kupacIme"
+                    android:importantForAutofill="no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/bijela"
+                    android:hint="@string/ime_kupca_res"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/bijela" />
+
+                <EditText
+                    android:id="@+id/kupacPrezime"
+                    android:importantForAutofill="no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/bijela"
+                    android:hint="@string/prezime_kupca_res"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/bijela" />
+
+                <EditText
+                    android:id="@+id/kupacAdresa"
+                    android:importantForAutofill="no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/bijela"
+                    android:hint="@string/adresa_res"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:textColor="@color/bijela" />
+
+                <TextView
+                    android:id="@+id/postanskiBrojLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/po_tanski_broj_res"
+                    android:textColor="@color/bijela" />
+
+                <NumberPicker
+                    android:id="@+id/kupacPBR1"
+                    android:layout_width="match_parent"
+                    android:layout_height="136dp"
+                    android:hint="@string/po_tanski_broj_res"
+                    android:padding="10dp" />
+
+                <EditText
+                    android:id="@+id/kupacPBR"
+                    android:importantForAutofill="no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/bijela"
+                    android:hint="@string/po_tanski_broj_res"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/bijela" />
+
+                <Button
+                    android:id="@+id/spremiKupca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/button_spremi"
+                    android:text="@string/spremi_res"
+                    android:textColor="@color/bijela"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</RelativeLayout>

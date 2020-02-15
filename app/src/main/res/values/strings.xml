@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">Financijski Manager</string>
+    <string name="statistika">Statistika</string>
+    <string name="Kupci">Kupci</string>
+    <string name="Poslovnice">Poslovnice</string>
+    <string name="Proizvodi">Proizvodi</string>
+    <string name="Zaposlenici">Zaposlenici</string>
+    <string name="unesi_racun">Unesi račun</string>
+    <string name="naslovnica">Naslovnica</string>
+    <string name="prijavi_bug">Prijavi bug</string>
+    <string name="kupci_res">Kupci</string>
+    <string name="proizvodi_res">Proizvodi</string>
+    <string name="zaposlenici_res">Zaposlenici</string>
+    <string name="ime_prodavaca_res">ime prodavača</string>
+    <string name="prezime_prodavaca_res">prezime prodavača</string>
+    <string name="id_poslovnice_res">id poslovnice</string>
+    <string name="naziv_proizvoda_res">naziv proizvoda</string>
+    <string name="proizvod_naslov_res">Unesite novi proizvod</string>
+    <string name="poslovnice_res">Poslovnice</string>
+    <string name="racuni_res">Računi</string>
+    <string name="inicijalni_naslov_res">inicijalni naslov</string>
+    <string name="inicijalno_rjesenje_res">inicijalno rjesenje</string>
+    <string name="odaberite_mjesec_i_godinu_res">Odaberite mjesec i godinu</string>
+    <string name="izaberite_upaniju_res">Izaberite županiju</string>
+    <string name="izaberite_proizvod_res">Izaberite proizvod:</string>
+    <string name="nema_rezultata_poruka">Za odabrani mjesec i godinu ne postoje evidentirani računi!</string>
+    <string name="nema_rezultata_poruka_proizvod">Za odabrani mjesec i godinu ne postoje evidentirani računi sa navedenim proizvodom!</string>
+    <string name="izaberite_poslovnicu_res">Izaberite poslovnicu:</string>
+    <string name="promijenite_podatke_o_kupcu_res">Promijenite podatke o kupcu</string>
+    <string name="statistika_res">Statistika</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mj_cilj_res">Izaberite cilj u kunama:</string>
+    <string name="odaberite_kupca_res">Odaberite kupca:</string>
+    <string name="odaberite_godinu_res">Odaberite godinu</string>
+    <string name="nema_rezultata_godine">Za odabranu godinu ne postoje evidentirani računi!</string>
+    <string name="prvi_drugi_dio_god_nema_rezultata_res">U prvom ili drugom dijelu godine nema evidentiranih računa!</string>
+    <string name="nema_rezultata_prodavaci_godina">Niti jedan prodavač nije zadovoljio uvjete ili nije izdan račun u zadanoj godini.</string>
+    <string name="spremi_res">Spremi</string>
+    <string name="po_tanski_broj_res">Poštanski broj</string>
+    <string name="adresa_res">adresa</string>
+    <string name="prezime_kupca_res">prezime kupca</string>
+    <string name="ime_kupca_res">ime kupca</string>
+    <string name="unesite_novog_kupca_res">Unesite novog kupca</string>
+    <string name="slika_za_izlaz_iz_dialoga_res">slika za izlaz iz dialoga</string>
+    <string name="logo_res">logo</string>
+    <string name="dodaj_kupca_res">dodaj kupca</string>
+    <string name="unesite_podatke_o_prodavacu_res">Promijenite podatke o zaposleniku</string>
+    <string name="toast_msg">Molimo vas, ispunite sva polja</string>
+    <string name="promijenite_podatke_o_proizvodu_res">Promijenite podatke o proizvodu</string>
+    <string name="prikaz_poslovnice">%1$s, Postanski broj: %2$s</string>
+    <string name="prikaz_zaposlenika">%1$s %2$s id: %3$s</string>
+    <string name="prikaz_proizvoda">%1$s : %2$s kn</string>
+    <string name="string65">%1$s %2$s proizvod: %3$s unutar %4$s. mjeseca i %5$s. godine.</string>
+    <string name="string63">%1$s računa zaredom unutar %2$s. mjeseca i %3$s. godine.</string>
+    <string name="string62">%1$s računa unutar %2$s. mjeseca i %3$s. godine.</string>
+    <string name="string61">%1$s kn u %2$s. mjesecu i godini %3$s.</string>
+    <string name="string64">%1$s%2$s unutar %3$s. mjeseca i %4$s. godine.</string>
+    <string name="string55">Proizvod %1$s je ostvario %2$s % prodaje u županiji %3$s unutar %4$s. mjeseca i godine %5$s.</string>
+    <string name="string53">%1$s %2$s proizvod %3$s unutar %4$s. mjeseca i godine %5$s.</string>
+    <string name="string52">%1$s kn unutar %2$s. mjeseca i godine %3$s.</string>
+    <string name="string51">%1$s %2$s unutar %3$s. mjeseca i godine %4$s.</string>
+    <string name="string45">Mjesečni cilj su premašili: %1$s</string>
+    <string name="string44">Poslovnica %1$s kn prodajom proizvoda %2$s unutar %3$s. mjeseca i godine %4$s.</string>
+    <string name="string41">%1$s kn unutar %2$s. mjeseca i godine %3$s.</string>
+    <string name="string42">Poslovnica %1$s je uprihodila udio od %2$s % unutar %3$s. mjeseca i godine %4$s.</string>
+    <string name="string35">Broj kupaca koji su posjetili poslovnicu %1$s je %2$s unutar %3$s. mjeseca i godine %4$s.</string>
+    <string name="string35else">Niti jedan kupac nije posjetio poslovnicu %1$s unutar %2$s. mjeseca i godine %3$s.</string>
+    <string name="string34">%1$s %2$s unutar %3$s. mjeseca i godine %4$s.</string>
+    <string name="string33">%1$s proizvoda unutar %2$s. mjeseca i godine %3$s.</string>
+    <string name="string32">%1$s dana zaredom kupovine unutar %2$s. mjeseca i godine %3$s.</string>
+    <string name="string31">%1$s kn unutar %2$s. mjeseca i godine %3$s.</string>
+    <string name="string22">Račun broj %1$s kn unutar %2$s. mjeseca i godine %3$s.</string>
+    <string name="string15">%1$s od 365 dana u godini %2$s.</string>
+    <string name="string12">Poslovnica %1$s je ostvarila rast u drugom dijelu godine %2$s. od %3$s</string>
+    <string name="string12pad">Poslovnica %1$s je ostvarila pad u drugom dijelu godine %2$s. od %3$s</string>
+    <string name="string24">%1$s stavke na računu unutar %2$s. godine.</string>
+    <string name="odaberite_datum_res">Odaberite datum</string>
+    <string name="spremi_novi_ra_un_res">Spremi novi račun</string>
+    <string name="odaberite_proizvode_res">Odaberite proizvode</string>
+    <string name="koli_ina_res">Količina:</string>
+    <string name="default_value">1</string>
+    <string name="izaberite_proizvode_res">Izaberite proizvode</string>
+    <string name="podijeli_res">Podijeli app</string>
+    <string name="vi_e_res">više</string>
+    <string name="novi_zaposlenik_res">Unesite novog zaposlenika</string>
+    <string name="nema_rezultata_kupaca_res">Za odabranu godinu i mjesec ne postoje evidentirani računi ili kupac nije kupovao u tom periodu!</string>
+    <string-array name="listaCiljeva">
+        <item>100</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>50000</item>
+        <item>100000</item>
+    </string-array>
+    <string-array name="postanskiBrojevi">
+        <item>10000</item>
+        <item>31000</item>
+        <item>51000</item>
+    </string-array>
+    <string-array name="statistikaLista">
+        <item>Proizvod koji se najbolje prodaje po kvartalima godine</item>
+        <item>Prodavač koji je ostvario najveći postotak prodaje po kvartalima godine</item>
+        <item>Poslovnica koja je ostvarila rast ili pad prodaje u odnosu na prvi i drugi dio godine</item>
+        <item>Kupci koji su najviše potrošili po kvartalima godine</item>
+        <item>Prodavači koji su uprihodili više novca od određene cifre</item>
+        <item>Prodavač koji je najviše dana u godini izdao račun</item>
+    </string-array>
+    <string-array name="racuniLista">
+        <item>Unesi novi račun</item>
+        <item>Popis računa</item>
+        <item>Račun sa najvećom svotom novca po mjesecu</item>
+        <item>Broj izdanih računa po kvartalima</item>
+        <item>Račun sa najviše stavki po godini</item>
+        <item>Zarada po prvom i drugom dijelu mjeseca u godini</item>
+    </string-array>
+    <string-array name="kupciLista">
+        <item>Popis kupaca</item>
+        <item>Kupac koji je potrošio najviše novaca u mjesecu</item>
+        <item>Kupac koji je kupovao najduži niz dana zaredom po mjesecu</item>
+        <item>Kupac koji je kupio najviše stavki u određenoj poslovnici</item>
+        <item>U kojoj poslovnici najčešće kupuje određeni kupac</item>
+        <item>Broj kupaca koji su posjetili poslovnicu tijekom mjeseca</item>
+    </string-array>
+    <string-array name="poslovniceLista">
+        <item>Popis poslovnica</item>
+        <item>Poslovnica koja je ostvarila najveći prihod po mjesecu</item>
+        <item>Udio određene poslovnice u ukupnom mjesečnom profitu</item>
+        <item>Lokacije poslovnica</item>
+        <item>Poslovnica koja najbolje prodaje određeni proizvod</item>
+        <item>Koje poslovnice su premašile mjesečni cilj zarade</item>
+    </string-array>
+    <string-array name="proizvodiLista">
+        <item>Popis proizvoda</item>
+        <item>Proizvod koji je prodan u najviše primjeraka po mjesecu</item>
+        <item>Proizvod koji je ostvario najveći profit po mjesecu i županiji</item>
+        <item>Prodavač koji je prodao proizvod na akciji u najviše primjeraka</item>
+        <item>Proizvod koji ima najmanji udio u ukupnoj prodaji po mjesecu</item>
+        <item>Županija u kojoj se određeni proizvod najbolje prodaje</item>
+    </string-array>
+    <string-array name="zaposleniciLista">
+        <item>Popis zaposlenika</item>
+        <item>Zaposlenik koji je uprihodio najveću svotu novca po mjesecu</item>
+        <item>Zaposlenik koji je izdao najviše računa po mjesecu</item>
+        <item>Zaposlenik koji je najveći broj dana zaredom izdao račun</item>
+        <item>Zaposlenici koji su ostvarili najveći prihod po mjesecu i županiji</item>
+        <item>Zaposlenik koji je prodao najveću količinu nekog proizvoda po mjesecu</item>
+    </string-array>
+</resources>
