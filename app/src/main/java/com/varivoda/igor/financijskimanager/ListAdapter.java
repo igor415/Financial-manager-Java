@@ -126,7 +126,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
                     lista = Arrays.asList(context.getResources().getStringArray(R.array.kupciLista));
                     if(getAdapterPosition()==0) {
                         intentPopis.putExtra(MainActivity.INTENT_VALUE,30);
-                        intentPopis.putExtra("naslov",lista.get(0));
+                        intentPopis.putExtra(NASLOV,lista.get(0));
                         context.startActivity(intentPopis);
                     }else if(getAdapterPosition()==1){
                         intentMod.putExtra(MainActivity.INTENT_VALUE,31);
@@ -154,7 +154,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
                     lista = Arrays.asList(context.getResources().getStringArray(R.array.poslovniceLista));
                     if(getAdapterPosition()==0) {
                         intentPopis.putExtra(MainActivity.INTENT_VALUE,40);
-                        intentPopis.putExtra("naslov",lista.get(0));
+                        intentPopis.putExtra(NASLOV,lista.get(0));
                         context.startActivity(intentPopis);
                     }else if(getAdapterPosition()==1){
                         intentMod.putExtra(MainActivity.INTENT_VALUE,41);
@@ -181,7 +181,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
                     lista = Arrays.asList(context.getResources().getStringArray(R.array.proizvodiLista));
                     if(getAdapterPosition()==0) {
                         intentPopis.putExtra(MainActivity.INTENT_VALUE,50);
-                        intentPopis.putExtra("naslov",lista.get(0));
+                        intentPopis.putExtra(NASLOV,lista.get(0));
                         context.startActivity(intentPopis);
                     }else if(getAdapterPosition()==1){
                         intentMod.putExtra(MainActivity.INTENT_VALUE,51);
@@ -210,7 +210,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
                     lista = Arrays.asList(context.getResources().getStringArray(R.array.zaposleniciLista));
                     if(getAdapterPosition()==0) {
                         intentPopis.putExtra(MainActivity.INTENT_VALUE,60);
-                        intentPopis.putExtra("naslov",lista.get(0));
+                        intentPopis.putExtra(NASLOV,lista.get(0));
                         context.startActivity(intentPopis);
                     }else if(getAdapterPosition()==1){
                         intentMod.putExtra(MainActivity.INTENT_VALUE,61);
